@@ -3,20 +3,21 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     
   </head>
 
   <body>
     <header id="header">
-      <img  id="header-img" src="https://res.cloudinary.com/growsurf-prod/image/upload/v1582211139/production/gnysw2objzekbagrqiax.png" alt="Image">
-      <br><br><br>
+      
       <nav id="nav-bar">
         <a href="#html" class="nav-link">HTML</a> |
         <a href="#css" class="nav-link">CSS</a> |
         <a href="#JS" class="nav-link">JavaScript</a> |
         <a href="#python" class="nav-link">Python</a>
       </nav>
+      <img  id="header-img" src="https://res.cloudinary.com/growsurf-prod/image/upload/v1582211139/production/gnysw2objzekbagrqiax.png" alt="Image">
+      <br><br><br>
 
     </header>
     
@@ -37,7 +38,7 @@
         
     </form></div>
     <br><br><br>
-    <div id="JS">
+    <div id="JS" class="jj">
       <p>JS is another widely used programming language</p>
         
     </div>
@@ -46,13 +47,14 @@
       <p>Pyhton is a great language used in data science</p>
         
     </div><br><br><br>
-    <form action="" id="form">
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
       <p>to subscripe for courses please enter your e-mail</p>
-      <input type="email" id="email" placeholder="email"required>
-      <input>
+      <input type="email" id="email" placeholder="email" name="email" required>
+      
       <br><br>
-      <button>id="submit" type="submit" form="form" value="Submit"</button>
+      <input id="submit" type="submit" name="submit" value="Submit">
     </form>
+    
     
     
 
